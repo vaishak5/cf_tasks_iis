@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    margin: 0px;
+    padding: 5px;
+}
+h3, .lastDay{
+    text-align: center;
+    
+}
+.dates, .last, .outputSet{
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding: 5px;
+}

@@ -1,0 +1,303 @@
+.mainBody{
+    margin: 25px 0 15px 0;
+    padding: 0;
+    font-size: small;
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+.mainConts{
+    margin: 0 auto 10px auto;
+    width: 640px;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+.secondMain{
+    margin: 20px 14px 0 14px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.head h2{
+    margin: 0 0 5px 0;
+    font-size:20.8px;
+    color: #000000;
+    font-weight: 500;
+    
+}
+.head p{
+    font-size:12.35px;
+    color:#444444;
+}
+.secondMainFt{
+    border-bottom: 1px dotted #ddd;
+    width: 100%;
+}
+.position, .relocate {
+    display:flex;
+    gap:10px;
+    align-items: baseline;
+}
+.positionTxt, .relocateTxt, .salaryTxt, .attachTxt,.relocateTxtCont{
+    font-weight: bold;
+    color: #444444 ;
+    font-size: 12.35px;
+}
+.redIcon{
+    color:red;
+}
+/*#selectConts{
+    width: 30%;
+}*/
+.radioBtnCont{
+    display: flex;
+    gap: 10px;
+    color: #444444;
+}
+.btnOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#textBoxFt, #textBoxSnd{
+    width: 16px;
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.inputConts{
+    display:flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.inputSet{
+    display:flex;
+    gap:10px;
+}
+#textBoxThd{
+    width: 35px;
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.inputContss{
+    padding-top: 6px;
+    gap: 6px;
+    align-items: baseline;
+    display: flex;
+}
+#urlCont{
+    padding: 4px 1px 5px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+    width:99%;
+}
+.chooseBtn p{
+    font-size: 10.92px;
+    color: #444444;
+}
+.symbolBox{
+    display: flex;
+}
+.textBoxThd{
+    width: 85px;
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+.symbolSd{
+    font-size:15.6px;
+}
+.box p{
+    margin-top:3px;
+}
+.symbolBox{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+.contact p{
+    font-size: 14.3px;
+    color: #000000;
+}
+.portflio{
+    display: flex;
+    align-items: baseline;
+    gap:2px;
+    flex-direction: column;
+}
+#firstname{
+    width: 68px;
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+.boxx{
+    display:flex;
+    flex-direction: column;
+}
+.boxx p{
+    margin-top: 3px;
+    font-size: 11.02px;
+}
+#lastname{
+    width: 118px;
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+.firstLast{
+    display: flex;
+    gap: 6px;
+}
+#email{
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+#phoneThd{
+    width: 35px;
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+#phoneFt, #phoneSnd{
+    width: 27px;
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+.sub{
+    padding: 0px 7px;
+    margin: 0px 5px 0px 0px;
+    width: 66.56px;
+    height: 22px;
+    font-size: 13px;
+}
+.lastCont{
+    padding: 20px 0px;
+    font-size: 14px;
+}
+.lastContTxt a{
+    
+    outline:none;
+    color: #007faa;
+
+}
+.lastContTxt {
+    color: #7e7e7e;
+}
+body{
+    background-color: hsl(80, 100%, 30%);
+}
+.rdBtn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.hiddenMsg{
+    display: none;
+}
+#errorMsg{
+    display: none;
+}
+.portflioName, .portflioEmail,.portflioPhone{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+.error{
+    color:red
+}
+.textBox{
+    width: 19px;
+    height: 26px;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+#relocateCont, #fileCont,#salaryCont{
+    padding:5px;
+}
+.highlight {
+    background-color: #fff7c0;
+    
+}
+.portflioEmail p{
+    font-size: 12.35px;
+    font-weight: bold;
+    color: #444444;
+}
+.errorContainer ,.errorContainerSd,.errorContainerThd,.errorContainerForth,.errorContainerFifth,.errorContainerSixth{
+    /*padding:5px;*/
+    width:55%;
+    margin-bottom: 5px;
+}
+.error {
+    display: none; 
+}
+.errorTxt{
+    display: none;
+    
+}
+#msgError{
+    text-align: center;
+    border: 1px solid red;
+    margin: 15px auto 15px auto;
+    padding: 1em 0 1em 0;
+    border-radius: 20px;
+}
+#msgError p{
+    font-size: 17px;
+    color:#df0000;
+}
+.highlighted{
+    color: red;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 6px;
+    background-color:#ffdfdf;
+}
+.httpTxt{
+    width:100%;
+}
+.boxFirst, .boxSecond,.boxThird,.contact,.boxForth,.boxFifth,.boxSixth{
+    padding:5px;
+}
+.salary,.fileConts,.relocates{
+    width:50%;
+}
+#selectConts{
+    width:60%;
+}
+.contact{
+    border-top: 1px dotted #ddd;
+}
+.dateImg{
+    cursor: pointer;
+}
+.calendarIcon{
+    padding: left 10px;
+}
+
