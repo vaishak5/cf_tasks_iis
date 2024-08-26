@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    padding-top: 15px;
+}
+.datasSet{
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    cursor:pointer;
+}
+.dataFt{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.dataSnd{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.btnSet{
+    padding-top: 13px;
+}
+
+

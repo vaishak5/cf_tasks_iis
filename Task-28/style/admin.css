@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+h2{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: darkgray;
+    color:white;
+}
+.header a{
+    color:white;
+}
+.headerFirst, .headerSecond{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.adminFeat, .features{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.siteName{
+    font-size: 25px;
+    font-weight: 600;
+}
+
